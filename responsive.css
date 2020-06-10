@@ -1,0 +1,446 @@
+@media screen and (max-width: 900px){
+	.nav ul{
+		width: 100%;
+		display: none;
+		transition: display 0.6s ease;
+		background: #f2f2fc;
+	}
+	.nav ul li{
+		display: block;
+		text-align: center;
+	}
+	.nav ul li a {
+		display: inline-block;
+		width: auto;
+	}
+	.box{
+		display: block;
+	}
+}
+@media screen and (max-width:1024px) and (min-width: 768px){
+	.profile img{
+		width: 320px;
+		height: 320px;
+		padding: 15px;
+	}
+	.profile h1{
+		padding: 25px;
+		font-size: 3rem;
+	}
+	.profile p{
+		font-size: 1.8rem;
+	}
+}
+@media screen and (max-width:320px){
+	.profile img{
+		width: 160px;
+		height: 160px;
+		padding: 10px;
+	}
+  .profile h1{
+    padding: 15px 5px 10px 5px;
+    font-size: 2rem;
+  }
+  .profile p{
+    font-size: 1.1rem;
+  }
+}
+
+
+
+@media screen and (max-width: 1426px){
+	section h1{
+       margin-left: 3em;
+    }
+    section p.sol{
+       margin-left: 90px;
+       width: 70%;
+    }
+   .main{
+       width: 90%;
+    }
+    .skil{
+    	width: 30%;
+    }
+    .detail{
+    	width: 35%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1020px){
+	section h1{
+       margin-left: 2em;
+    }
+    section p.sol{
+       margin-left: 60px;
+       width: 75%;
+    }
+   .main{
+       width: 100%;
+       margin: 4px auto;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    .skil{
+    	width: 30%;
+    }
+    .detail{
+    	width: 35%;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+	section h1{
+       margin-left: 1em;
+    }
+    section p.sol{
+       margin-left: 40px;
+       width: 80%;
+    }
+   .main{
+       width: 100%;
+       margin: 4px auto;
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    .photo{
+       width: 40%;
+       margin-left: 45px;
+    }
+    .skil{
+    	width: 90%;
+    	margin: 5px auto;
+    }
+    .detail{
+    	width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 708px){
+   .main{
+       padding-left: 25px;
+       padding-right: 25px;
+    }
+    .photo{
+       width: 80%;
+       margin: 5px auto;
+    }
+    .skil{
+    	width: 100%;
+    	margin: 5px auto;
+    }
+    .detail{
+    	width: 100%;
+     	padding: 5px 10px 10px 0px;
+        margin-left: 0px;
+    }
+    section h1{
+        line-height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 420px){
+	.photo{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1499px){
+  .bund-item{
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .bund{
+    width: 95%;
+  }
+  .bund-item{
+    width: 310px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+
+@media screen and (max-width: 1104px){
+  .bund{
+    width: 100%;
+    margin-left: 5px;
+  }
+  .bund-item{
+    width: 310px;
+  }
+  #portfolio h1{
+    margin-left: 0.6em;
+  }
+}
+
+@media screen and (max-width: 1067px){
+  .bund{
+    width: 100%;
+    margin-left: 40px;
+  }
+  .bund-item{
+    width: 290px;
+  }
+  #portfolio h1{
+    margin-left: 1.8em;
+  }
+}
+@media screen and (max-width: 1049px){
+  .bund{
+    margin-left: 40px;
+    width: 93%;
+    padding-right: 5px;
+  }
+  .bund-item{
+    width: 260px;
+  }
+  #portfolio h1{
+    margin-left: 1.3em;
+  }
+}
+@media screen and (max-width: 970px){
+  .bund{
+    margin-left: 20px;
+  }
+  .bund-item{
+    width: 250px;
+  }
+  #portfolio h1{
+    margin-left: 1.2em;
+  }
+}
+@media screen and (max-width: 914px){
+  .bund{
+    margin-left: 10px;
+  }
+  .bund-item{
+    width: 240px;
+  }
+  #portfolio h1{
+    margin-left: 1.1em;
+  }
+}
+@media screen and (max-width: 840px){
+  .bund{
+    margin-left: 50px;
+  }
+  .bund-item{
+    width: 300px;
+  }
+  #portfolio h1{
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 778px){
+  .bund{
+    margin-left: 40px;
+  }
+  .bund-item{
+    width: 300px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 732px){
+  .bund{
+    margin-left: 30px;
+  }
+  .bund-item{
+    width: 270px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 680px){
+  .bund{
+    margin-left: 10px;
+    padding: 0;
+  }
+  .bund-item{
+    width: 250px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 623px){
+  .bund{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .bund-item{
+    width: 350px;
+    height: 270px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+  .hid{
+    top: -276.5px;
+  }
+}
+@media screen and (max-width: 600px){
+  .bund{
+    margin: 20px auto;
+  }
+  .bund-item{
+    width: 350px;
+    height: 270px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 588px){
+  .bund{
+    width: 100%;
+  }
+  .bund-item{
+    width: 85%;
+    height: 290px;
+    margin: -10px 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .hid{
+    top: -256.5px;
+  }
+  #portfolio h1{
+    margin-left: 1em;
+  }
+}
+@media screen and (max-width: 360px){
+   #portfolio h1{
+    font-size: 20px;
+  }
+  .bund-item{
+    height: 220px;
+  }
+  .hid{
+     top: -187px;
+  }
+}
+@media screen and (max-width: 320px){
+  .bund{
+    margin-left: 10px;
+    margin: 0px;
+  }
+  #portfolio h1{
+    font-size: 20px;
+  }
+  .bund-item{
+    width: 100%;
+    height: 220px;
+    margin: -10px 7px;
+  }
+  .hid{
+     top: -187px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .con{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .con{
+    width: 100%;
+    margin-left: -4px;
+  }
+  .con h1{
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .social{
+    left:85vw;
+    top:85vh;
+  }
+}
+@media screen and (max-width: 686px){
+  .social{
+    left:80vw;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .social{
+    left:75vw;
+    top: 88vh;
+  }
+}
+
+@media screen and (max-width: 376px) and (max-height: 668px){
+  .social{
+    left:73vw;
+    top: 85vh;
+    width: 65px;
+    height: 65px;
+  }
+  .s{
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 411px) and (max-height: 823px){
+  .social{
+    left:77vw;
+    top: 88vh;
+  }
+  .s{
+    width: 58px;
+    height: 58px;
+  }
+}
+@media screen and (max-width: 360px) and (max-height: 640px){
+  .social{
+    width: 55px;
+    height: 55px;
+  }
+  .s{
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 320px){
+  .social{
+    left:74vw;
+    top: 84vh;
+    width: 50px;
+    height: 50px;
+  }
+  .s{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+@media screen and (width:1024px) and (height: 1366px){
+  section#about{
+    padding-top: 400px;
+  }
+  #portfolio{
+    padding-top: 400px;
+  }
+  #contact{
+    padding-top: 400px;
+  }
+}
