@@ -33,7 +33,7 @@ a{
 .loader path{
     stroke-dasharray: 606px;
     stroke-dashoffset: 606px;
-    animation: line-anim 3s ease forwards;
+    animation: line-anim 2s ease forwards;
 }
 @keyframes line-anim{
     to{
