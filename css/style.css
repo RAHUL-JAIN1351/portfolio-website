@@ -89,9 +89,10 @@ header{
     background: #fdf9ff;
     position: fixed;
     top: 0;
-    border-bottom: 2px solid #f2f2fc;
+   /* border-bottom: 2px solid #f2f2fc;
     z-index: 100;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px black;*/
+    transition:all 0.5s;
 }
 .nav ul{
     float: right; 
