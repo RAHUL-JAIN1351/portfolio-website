@@ -232,32 +232,16 @@
 
 </div>
 </body>
-   <script>
-       var i=0;
-
-
-       function f(){
-          document.getElementById('one').classList.toggle('do');
-       }
-
-       function fun() {
-          if(i == 0){
-            document.getElementById('bar1').style.transform = 'rotate(-45deg) translate(-10px,10px)';
-            document.getElementById('bar3').style.transform = 'rotate(45deg) translate(-7px,-5px)';
-            document.getElementById('bar2').style.opacity = '0';
-            document.getElementById('no').style.display = 'block';
-
-            i=1;
-          }
-          else{
-            document.getElementById('bar1').style.transform = 'rotate(0deg) ';
-            document.getElementById('bar3').style.transform = 'rotate(0deg) ';
-            document.getElementById('bar2').style.opacity = '1';
-            document.getElementById('no').style.display = 'none';
-
-            i=0;
-          }
-
+   <script src="js/in.js"></script>
+    <script>
+        window.onload = function(){
+             setTimeout(function() { 
+                 var lo =document.getElementById("l");
+                 lo.style.display = "none";
+       
+                 var mo =document.getElementById("home");
+                 mo.style.display = "block";
+             }, 3000);
        }
     </script>
 </html>
