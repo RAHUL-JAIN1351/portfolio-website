@@ -46,6 +46,7 @@ a{
     max-width: 100%;
     min-height: 100vh;
     background: #fdf9ff;
+    display: none;
 }
 header{
     position: absolute;
