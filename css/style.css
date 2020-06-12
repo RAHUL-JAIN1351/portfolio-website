@@ -104,6 +104,18 @@ header{
     line-height: 40px;
     margin-right: 20px;
     z-index: 2;
+    opacity:0;
+}
+.tog li{
+    animation:op 2s ease-in 1.5s forwards;
+}
+@keyframes op{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
 }
 .nav ul li a , .logo a{
     width: 60px;
