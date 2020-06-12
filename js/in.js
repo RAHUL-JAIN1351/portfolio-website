@@ -1,6 +1,7 @@
        var i=0;
        function f(){
           document.getElementById('one').classList.toggle('do');
+          document.getElementById('one').style.animation = "none";
        }
 
        function fun() {
