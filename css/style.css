@@ -485,7 +485,7 @@ p span{
 .arr i{
     font-size:70px;
     color:#000424;
-    animation:move 3s ease 1s infinite alternate;
+    animation:move 1s ease 1s infinite alternate;
 }
 @kryframes move{
     to{
