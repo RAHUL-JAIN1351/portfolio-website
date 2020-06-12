@@ -11,7 +11,7 @@
 	.nav ul li{
 		display: block;
 		text-align: center;
-                transition: transform 0.7s ease;
+                transition: transform 0.8s ease;
 	}
 	.nav ul li a {
 		display: inline-block;
