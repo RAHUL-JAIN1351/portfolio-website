@@ -431,7 +431,7 @@ p span{
 }
 @keyframes bulge{
     to{
-      transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1);
     }
 }
 .social i{
