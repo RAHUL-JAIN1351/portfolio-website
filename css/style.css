@@ -428,6 +428,9 @@ p span{
     border-radius:50%;
     cursor: pointer;
 }
+.social:hover{
+    background:#504e70;
+}
 .social i{
    position:absolute;
    left:50%;
