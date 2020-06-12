@@ -489,7 +489,7 @@ p span{
 }
 @keyframes move{
     to{
-      font-size:40px;
+      font-size:100px;
     }
 }
 footer{
