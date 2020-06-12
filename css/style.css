@@ -476,22 +476,6 @@ p span{
 .do .s{
     display: block;
 }
-
-.arr{
-    position:fixed;
-    right:0px;
-    top:20vh;
-}
-.arr i{
-    font-size:70px;
-    color:#000424;
-    animation:move 1s ease 1s infinite alternate;
-}
-@keyframes move{
-    to{
-      font-size:100px;
-    }
-}
 footer{
     max-width: 100vw;
     background: #151515;
