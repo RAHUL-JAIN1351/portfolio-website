@@ -3,8 +3,8 @@
           document.getElementById('one').classList.toggle('do');
      
           if(cnt == 1){
-               document.getElementById('one').style.animation = "bulge 0.3s ease 0.8s infinite alternate";
-               cnt=1;
+               document.getElementById('one').style.animation = "bulge 0.5s ease 1s infinite alternate";
+               cnt=0;
           }
           else if(cnt == 0){
                document.getElementById('one').style.animation = "none";
