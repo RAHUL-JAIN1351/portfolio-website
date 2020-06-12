@@ -92,7 +92,7 @@ header{
    /* border-bottom: 2px solid #f2f2fc;
     z-index: 100;
     box-shadow: 0px 0px 1px black;*/
-    transition:all 0.5s;
+    transition:all 1s;
 }
 .nav ul{
     float: right; 
