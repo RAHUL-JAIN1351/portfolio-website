@@ -107,7 +107,7 @@ header{
     opacity:0;
 }
 .tog li{
-    animation:op 1s ease-in forwards;
+    animation:op 1.25s ease-in forwards;
 }
 @keyframes op{
     from{
