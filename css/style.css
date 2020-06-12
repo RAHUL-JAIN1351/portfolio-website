@@ -450,7 +450,7 @@ p span{
     display: none;
     transition: all 15s ease;
 }
-.s:hover{
+.s1:hover{
     transform: scale(1.17, 1.17);
 }
 .s1{
