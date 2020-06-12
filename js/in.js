@@ -13,6 +13,8 @@
        }
 
        function fun() {
+          const to = document.getElementById('ulki');
+          to.classList.toggle('tog');
           if(i == 0){
             document.getElementById('bar1').style.transform = 'rotate(-45deg) translate(-10px,10px)';
             document.getElementById('bar3').style.transform = 'rotate(45deg) translate(-7px,-5px)';
