@@ -17,7 +17,7 @@
             document.getElementById('bar1').style.transform = 'rotate(-45deg) translate(-10px,10px)';
             document.getElementById('bar3').style.transform = 'rotate(45deg) translate(-7px,-5px)';
             document.getElementById('bar2').style.opacity = '0';
-            document.getElementById('no').style.display = 'block';
+            document.getElementById('no').style.transform = 'translateX(0%)';
 
             i=1;
           }
@@ -25,7 +25,7 @@
             document.getElementById('bar1').style.transform = 'rotate(0deg) ';
             document.getElementById('bar3').style.transform = 'rotate(0deg) ';
             document.getElementById('bar2').style.opacity = '1';
-            document.getElementById('no').style.display = 'none';
+            document.getElementById('no').style.transform = 'translateX(-100%)';
 
             i=0;
           }
