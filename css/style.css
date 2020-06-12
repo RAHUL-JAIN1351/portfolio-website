@@ -427,11 +427,11 @@ p span{
     box-shadow:0px 0px 25px white , 0px 0px 6px #151515;
     border-radius:50%;
     cursor: pointer;
-    animation:bulge 2s ease 2s infinite alternate;
+    animation:bulge 1s ease 2s infinite alternate;
 }
 @keyframes bulge{
     to{
-      transform: scale(1.2, 1);
+      transform: scale(1.2, 1.1);
     }
 }
 .social i{
