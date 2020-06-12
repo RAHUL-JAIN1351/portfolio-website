@@ -427,9 +427,12 @@ p span{
     box-shadow:0px 0px 25px white , 0px 0px 6px #151515;
     border-radius:50%;
     cursor: pointer;
+    animation:bulge 2s ease 2s infinite;
 }
-.social:hover{
-    transform: scale(1.1, 1.1);
+@keyframes bulge{
+    to{
+      transform: scale(1.2, 1.2);
+    }
 }
 .social i{
    position:absolute;
@@ -449,9 +452,6 @@ p span{
     border-radius:50%;
     display: none;
     transition: all 15s ease;
-}
-.s1:hover{
-    transform: scale(1.17, 1.17);
 }
 .s1{
     left:3px;
