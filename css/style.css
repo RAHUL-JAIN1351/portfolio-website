@@ -477,8 +477,15 @@ p span{
     display: block;
 }
 
-
-
+.arr{
+    position:fixed;
+    right:0;
+    top:50vh;
+}
+.arr img{
+    width:60px;
+    height:60px;
+}
 footer{
     max-width: 100vw;
     background: #151515;
