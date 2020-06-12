@@ -2,12 +2,11 @@
 	.nav ul{
 		width: 100%;
                 z-index:999;
-                height:100vh;
 		transition: transform 0.6s ease;
                 transform:translateX(-100%);
 		background: #fdf9ff;
-                box-shadow:0px 0px 10px white ,
-                           0px 0px 10px black;
+                box-shadow:0px 0px 6px white ,
+                           0px 0px 6px black;
 	}
 	.nav ul li{
 		display: block;
