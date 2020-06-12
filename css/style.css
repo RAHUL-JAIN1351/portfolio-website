@@ -112,7 +112,7 @@ header{
 @keyframes op{
     from{
       opacity:0;
-      transform:translateX(40px);
+      transform:translateX(70px);
     }
     to{
       opacity:1;
