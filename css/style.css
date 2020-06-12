@@ -429,8 +429,7 @@ p span{
     cursor: pointer;
 }
 .social:hover{
-    background:#504e70;
-    opacity:0.7;
+    transform: scale(1.1, 1.1);
 }
 .social i{
    position:absolute;
