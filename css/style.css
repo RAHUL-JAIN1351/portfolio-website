@@ -104,7 +104,6 @@ header{
     line-height: 40px;
     margin-right: 20px;
     z-index: 2;
-    opacity:0;
 }
 .tog li{
     animation:op 1.25s ease-in forwards;
