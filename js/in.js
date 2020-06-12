@@ -13,7 +13,7 @@
        }
 
        function fun() {
-          const to = document.getElementById('ulki');
+          const to = document.getElementById('no');
           to.classList.toggle('tog');
           if(i == 0){
             document.getElementById('bar1').style.transform = 'rotate(-45deg) translate(-10px,10px)';
