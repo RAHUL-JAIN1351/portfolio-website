@@ -1,7 +1,15 @@
-       var i=0;
+       var i=0,cnt=0;
        function f(){
           document.getElementById('one').classList.toggle('do');
-          document.getElementById('one').style.animation = "none";
+     
+          if(cnt == 1){
+               document.getElementById('one').style.animation = "bulge 0.5s ease 2s infinite alternate";
+               cnt=1;
+          }
+          else if(cnt == 0){
+               document.getElementById('one').style.animation = "none";
+               cnt=1;
+          }
        }
 
        function fun() {
