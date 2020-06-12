@@ -489,7 +489,7 @@ p span{
 }
 @kryframes move{
     to{
-      width:40px;
+      font-size:40px;
     }
 }
 footer{
