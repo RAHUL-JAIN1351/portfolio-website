@@ -2,7 +2,7 @@
 	.nav ul{
 		width: 100%;
                 z-index:999;
-		transition: transform 0.8s ease;
+		transition: translateX 0.8s ease;
                 transform:translateX(-100%);
 		background: #fdf9ff;
                 box-shadow:0px 0px 6px white ,
