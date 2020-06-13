@@ -12,6 +12,7 @@
 		display: block;
 		text-align: center;
                 transition: transform 0.8s ease;
+                transform:translateX(200%);
 	}
 	.nav ul li a {
 		display: inline-block;
