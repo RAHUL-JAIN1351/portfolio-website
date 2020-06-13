@@ -109,13 +109,13 @@ header{
     animation:op 1.25s ease-in forwards;
 }
 .tog li:nth-child(2){
-    animation:op 1.25s ease-in 0.3s forwards;
+    animation:op 1.25s ease-in 0.15s forwards;
 }
 .tog li:nth-child(3){
-    animation:op 1.25s ease-in 0.6s forwards;
+    animation:op 1.25s ease-in 0.3s forwards;
 }
 .tog li:nth-child(4){
-    animation:op 1.25s ease-in 0.9s forwards;
+    animation:op 1.25s ease-in 0.45s forwards;
 }
 @keyframes op{
     from{
